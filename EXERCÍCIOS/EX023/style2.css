@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {font-family: sans-serif;
+        background-color: bisque;
+    margin:0px;}
+
+header {background-color: white;
+padding:10px;
+margin:10px;}
+
+nav {background-color: brown;
+padding: 3px;
+box-shadow: 2px 2px 2px black;}
+
+nav >a {
+    text-decoration: none;
+    color:bisque;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+nav > a:hover {text-decoration: underline}
+
+main {background-color: aliceblue;
+padding: 10px;
+margin: 10px;}
+
+article {background-color: cornsilk;
+padding: 5px;}
+
+aside {font-size: 10px;}
+
+footer {
+    background-color: brown;
+    color: azure;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 2px 2px 2px black;
+}

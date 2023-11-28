@@ -1,0 +1,21 @@
+body {background-color: rgb(208, 224, 224);
+font-family:Arial, Helvetica, sans-serif;}
+
+h1 {color: rgb(34, 159, 190)}
+
+a {color:crimson;
+text-decoration: dotted};
+
+a:visited {color: darkred;}
+
+a:hover {text-decoration: underline;
+color: black}
+
+a:active {color: yellow}
+
+a::after
+{content: ' [link]';
+text-decoration: none;
+font-weight: normal;
+color: darkgray;
+}
